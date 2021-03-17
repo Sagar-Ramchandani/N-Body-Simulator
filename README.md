@@ -11,6 +11,9 @@ The following integration schemes are available:
 2.Leapfrog KDK 
 3.Leapfrog DKD
 
+The use of Leapfrog is recommended in the context of this program, and Euler is to be treated as a fallback 
+in case of any issues with the Leapfrog integrators.
+
 The code is optimized by the use of Numpy. Nonetheless, the base language is Python
 and thus the code is not designed with heavy computation in mind. 
 
